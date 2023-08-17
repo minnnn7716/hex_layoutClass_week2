@@ -61,6 +61,10 @@ ol li::before {
 }
 
 // -------- helper --------
+.mr-16 {
+  margin-right: 16px;
+}
+
 .mr-24 {
   margin-right: 24px;
 }
@@ -124,37 +128,11 @@ ol li::before {
 
 // -------- intro --------
 .intro {
-  padding: 160px;
+  padding: 160px 0;
   background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/background-img.png?raw=true');
   
   p {
     margin-bottom: 32px;
-  }
-  
-  &-side {
-    min-height: 600px;
-    
-    div {
-      height: 100%;
-      width: 42.85%;
-      background-size: cover;
-    }
-    
-    div:not(:last-child) {
-      width: 28.57%;
-    }
-    
-    &-firstImg {
-      background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/sparkle.png?raw=true');
-    }
-    
-    &-secondImg {
-      background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/photographer.png?raw=true');
-    }
-    
-    &-thirdImg {
-      background-image: url('https://github.com/hexschool/2022-web-layout-training/blob/main/2023week2/people-2.png?raw=true');
-    }
   }
 }
 
